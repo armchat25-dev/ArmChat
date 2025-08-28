@@ -1,0 +1,46 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Fixed CSS path -->
+    <link rel="stylesheet" href="{% static 'members/style.css' %}">
+</head>
+<body>
+    <div class="main111">
+    <div><p class="account">You have an account?</p></div>
+    <div class="login_button">
+                <a href="{% url 'login_page' %}" style="color: #E8E1D0;">Log in</a>
+            </div>
+            </div>
+    <div class="main">
+        <h1 class="heading">ArmChat</h1>
+        <div class="main1"></div>
+
+        <!-- Fixed Image Path -->
+        <img src="{% static 'members/images/image 1@2x.png' %}" alt="Image" class="image1" />
+
+        <h2 style="color: #4B2B20;" class="sign">Sign up</h2>
+        <div class="sign_block">
+            <div class="some"></div>
+
+            <div style="color: #E8E1D0;" class="text">Name</div>
+            <input type="text" id="name" name="name" class="name" placeholder="Please enter your name">
+
+            <div class="some"></div>
+            <div style="color: #E8E1D0;" class="text">Email</div>
+            <input type="text" id="email" name="email" class="name" placeholder="Please enter your email">
+
+            <div class="some"></div>
+            <div style="color: #E8E1D0;" class="text">Password</div>
+            <input type="password" id="password" name="password" class="name" placeholder="Please enter your password">
+
+            <div class="sign_button">
+                <a href="{% url 'index1' %}" style="color: #E8E1D0;">Sign up</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

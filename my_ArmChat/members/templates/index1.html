@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'members/style1.css' %}">
+</head>
+<body>
+    <div class="text">ArmChat</div>
+    <div class="help">How can I help you?</div>
+   <div class="input-container">
+  <input type="text" id="name" name="name" class="ask" placeholder="Ask me anything...">
+  <button type="submit" class="send-button">
+    <img src="{% static 'members/images/button-removebg-preview.png' %}" alt="Send" class="send-icon">
+  </button>
+</div>
+<!-- <script>
+  let age = prompt("Do you accept cookies?")
+   alert(`You said ${age}`);
+</script> -->
+</body>
+</html>
