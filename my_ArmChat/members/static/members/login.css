@@ -1,0 +1,161 @@
+body{
+    background-color: #E8E1D0;
+}
+
+.heading{ 
+    text-align: center;
+    color: #4B2B20;
+    line-height: 40px;
+    text-shadow: 1px 1px 1px #000000;
+}
+.image1{
+    margin-top: 30px;
+    align-content: center;
+    margin-left: 47%;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 130px;
+    height: 130px;
+}
+.sign{
+    margin-top: 30px;
+    margin-left: 33%;
+    
+}
+.sign_block{
+    margin-left: 32%;
+    width: 700px;
+    height: 450px;
+    background-color: #4B2B20;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+}
+.some{
+    height: 30px;
+    width: 20px;
+}
+.text{
+    text-align: center;
+    font-size: 20px;
+}
+.help{
+    margin-top: 20px;
+    margin-left: 46%;
+    width: 152px;
+    justify-content: center;
+    text-align: center;
+    color: #E8E1D0;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #8A431C;
+    line-height: 25px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+}
+.name{
+    margin-top: 15px;
+    margin-left: 10%;
+    width: 550px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #E8E1D0;
+    line-height: 32px;
+    font-size: 20px;
+    padding-left: 20px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+}
+.sign_button{
+    background-color: #8A431C;
+    width: 76px;
+    text-align: center;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 45%;
+    margin-top: 35px;
+    cursor: pointer;
+    line-height: 25px;
+}
+.login_button{
+    background-color: #8A431C;
+    width: 76px;
+    text-align: center;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 45%;
+    margin-top: 35px;
+    cursor: pointer;
+    line-height: 25px;
+}
+.sign_button a {
+    text-decoration: none;
+    color: white;
+    display: block; 
+    
+}
+@media (max-width: 480px) {
+    .heading{
+        font-size: 25px;
+        text-align: center;
+    }
+    .image1{
+    margin-top: 5px;
+    align-content: center;
+    margin-left: 140px;
+    width: 100px;
+    height: 100px;
+}
+.help{
+    margin-top: 20px;
+    margin-left: 115px;
+    width: 152px;
+    justify-content: center;
+    text-align: center;
+    color: #E8E1D0;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #8A431C;
+    line-height: 25px;
+}
+    .sign_block{
+    margin-left: 6%;
+    width: 340px;
+    height: 303px;
+    background-color: #4B2B20;
+    border-radius: 10px;
+}
+.sign{
+    margin-left: 9%;
+}
+.name{
+    margin-top: 10px;
+    margin-left: 8%;
+    width: 270px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #E8E1D0;
+    line-height: 32px;
+    font-size: 16px;
+    padding-left: 20px;
+}
+.some{
+    height: 15px;
+    width: 20px;
+}
+.sign_button{
+    margin-left: 40%;
+    margin-top: 60px;
+
+}
+.text{
+    font-size: 16px;
+}
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 481px) and (max-width: 768px) {
+
+}
+
+/* Large devices (desktops/laptops) */
+@media (min-width: 769px) and (max-width: 1200px) {
+
+}
