@@ -1,2 +1,2 @@
 # ArmChat
-Armenian AI
+Armenian AI everything about Armenia
